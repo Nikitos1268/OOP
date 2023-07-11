@@ -1,11 +1,10 @@
-// 3. Задан целочисленный список ArrayList. 
-// Найти минимальное, максимальное и среднее ариф. из этого списка.
+// 1) Пусть дан произвольный список целых чисел, найти минимальное, максимальное и среднее из этого списка.
 
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Task_3_3 {
+public class s3_2 {
     public static void main(String[] args) throws Exception {
         System.out.print("Введите длину списка N: ");
         try (Scanner iScanner = new Scanner(System.in)) {

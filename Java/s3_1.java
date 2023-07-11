@@ -1,11 +1,11 @@
-// 2. Пусть дан произвольный список целых чисел, удалить из него чётные числа.
+// 1) Пусть дан произвольный список целых чисел, удалить из него чётные числа.
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Task_3_2 {
+public class s3_1 {
     public static void main(String[] args) throws Exception {
         System.out.print("Введите длину списка N: ");
         try (Scanner iScanner = new Scanner(System.in)) {
