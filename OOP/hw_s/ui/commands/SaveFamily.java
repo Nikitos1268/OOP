@@ -9,7 +9,7 @@ public class SaveFamily extends Command {
 
     @Override
     public String description() {
-        return "Сохранить семью.";
+        return "Сохранить древо семьи.";
     }
 
     @Override

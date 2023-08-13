@@ -10,7 +10,7 @@ public class FamilyPrint extends Command {
 
     @Override
     public String description() {
-        return "Печать семейного древа.";
+        return "Вывод семейного древа.";
     }
 
     @Override

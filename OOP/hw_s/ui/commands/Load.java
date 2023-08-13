@@ -9,7 +9,7 @@ public class Load extends Command {
 
     @Override
     public String description() {
-        return "Загрузить семью.";
+        return "Загрузить древо семьи.";
     }
 
     @Override

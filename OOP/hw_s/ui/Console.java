@@ -29,7 +29,7 @@ public class Console implements View {
     }
 
     private void header() {
-        System.out.println("\nПрограмма для работы с семейным древом");
+        System.out.println("\nCемейное древо");
     }
 
     private void menuUi() {
@@ -39,7 +39,7 @@ public class Console implements View {
     public void addHumanNew() {
         System.out.print("Введите имя-> ");
         String name = scan();
-        System.out.print("Введите пол(муж./жен.)-> ");
+        System.out.print("Введите пол (муж/жен)-> ");
         String sex = scan();
         System.out.print("Введите возраст-> ");
         int age = Integer.parseInt(scan());
@@ -74,7 +74,7 @@ public class Console implements View {
 
     public void end() {
         go = false;
-        System.out.println("Спасибо, что пользуетесь нашим сервисом!");
+        System.out.println("Спасибо, что создали семейное древо!");
     }
 
     @Override

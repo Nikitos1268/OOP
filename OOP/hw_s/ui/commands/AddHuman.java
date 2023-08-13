@@ -9,7 +9,7 @@ public class AddHuman extends Command {
 
     @Override
     public String description() {
-        return "Добавление человека в семью.";
+        return "Добавление человека в древо семьи.";
     }
 
     @Override

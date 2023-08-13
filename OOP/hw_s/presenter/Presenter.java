@@ -33,7 +33,7 @@ public class Presenter {
     public void humanSearch(String name) {
         Human human = familyConnect.getByName(name);
         if (human == null)
-            view.print("Такого человека нет в семье!");
+            view.print("Такого человека нет в древе семьи!");
 
         else {
             String foundHuman = human.toString();
@@ -43,7 +43,7 @@ public class Presenter {
 
     public void saveFamily() {
         familyConnect.saveObj(serialize);
-        view.print("Семейное древо сохранено!");
+        view.print("Древо семьи сохранено!");
     }
 
     public void loadFamily() {

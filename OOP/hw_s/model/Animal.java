@@ -28,7 +28,7 @@ public abstract class Animal implements Serializable, Comparable<Animal> {
     public void addChild(Animal child) {
         if (!children.contains(child)) {
             this.children.add(child);
-            if (this.sex == "муж.") {
+            if (this.sex == "муж") {
                 child.father = this;
             } else
                 child.mother = this;
