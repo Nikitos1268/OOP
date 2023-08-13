@@ -41,3 +41,13 @@ git push origin :branch-name - Удалить бранч из репозитория на сервере
 git reset --hard d8578edf8458ce06fbc5bb76a58c5ca4a58c5ca4 - Откатиться к конкретному коммиту и удалить последующие (хэш смотрим в «git log»)
 git push -f - залить на сервер измененные коммиты
 git clean -f - Удаление untracked files
+
+git remote rm origin
+
+git remote add origin https://github.com/Nikitos1268/project_life_cycle.git
+git branch -M main
+git push -u origin main
+
+git remote add origin https://github.com/Nikitos1268/OOP.git
+git branch -M main
+git push -u origin main
